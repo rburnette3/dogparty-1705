@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body, html, section, main, div, aside {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background-color: #92E0E5;
+  height: 55px;
+  position: relative;
+}
+
+.dog-face-button {
+  background-color: #92E0E5;
+  background-image: url(assets/dog-icon.svg);
+  background-repeat: no-repeat;
+  border: none;
+  position: absolute;
+  left: 30px;
+  top:10px;
+  height: 35px;
+  width: 35px;
+}
+
+.header-nav {
+  float: right;
+  line-height: 55px;
+  margin-right: 30px;
+}
+
+.top-nav-link{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.top-section {
+  background-image: url(assets/park.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:auto;
+  height: 600px;
+}
+
+.site-heading {
+  font-size: 24px;
+  text-align: center;
+}
+
+.heading-pic {
+  
+}
