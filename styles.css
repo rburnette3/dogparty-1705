@@ -50,10 +50,8 @@ header {
   background-image: url(assets/park.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
   width: 100%;
   height: 500px;
-
 }
 
 h2 {
@@ -92,11 +90,9 @@ h2 {
   height: 500px;
   width: 100%;
   text-align: center;
-
 }
 
 .dog-article {
-  /*float: left;*/
   height: 400px;
   width: 30%;
   display:inline-block;
@@ -121,6 +117,11 @@ h2 {
   width: 100px;
 }
 
+.article-button:hover {
+  background-color: #3F8DA7;
+  color: #FFFFFF;
+}
+
 footer {
   height: 200px;
   background-color: #3F8DA7;
@@ -138,6 +139,7 @@ footer {
   text-align: center;
   margin: 25px 0;
 }
+
 .media-link {
   padding: 0 25px;
 }
@@ -145,9 +147,7 @@ footer {
 .git-hub-container {
   text-align: center;
 }
+
 .github-link {
-color: #FFFFFF;
-
-
-
+  color: #FFFFFF;
 }
