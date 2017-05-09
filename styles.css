@@ -1,13 +1,17 @@
 * {
   box-sizing: border-box;
 }
+
 body, html, section, main, div, aside {
   margin: 0;
   border: 0;
   padding: 0;
 }
+
 body {
+  width: 100%;
   font-family: 'Raleway', sans-serif;
+  text-align:
 }
 
 header {
@@ -34,7 +38,7 @@ header {
   margin-right: 30px;
 }
 
-.top-nav-link{
+.top-nav-link {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 18px;
@@ -42,18 +46,102 @@ header {
 }
 
 .top-section {
+  position: relative;
   background-image: url(assets/park.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width:auto;
-  height: 600px;
+  width: 100%;
+  height: 500px;
+  align-content: center;
 }
 
-.site-heading {
-  font-size: 24px;
+h2 {
+  font-size: 26px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.top-section-container{
+  height: 500px;
+  width:325px;
   text-align: center;
+  margin: auto;
 }
 
 .heading-pic {
-  
+  height: 275px;
+  width: 275px;
+  border: solid 4px #3F8DA7;
+  border-radius: 100%;
+  margin-top: 50px;
+}
+
+.what-are-dogs-button {
+  background-color: #FFFFFF;
+  color: #3F8DA7;
+  border: solid 3px #3F8DA7;
+  font: inherit;
+  font-size: 14px;
+  width: 120px;
+  margin-top: 50px;
+
+}
+
+.article-container {
+  height: 500px;
+  width: 100%;
+  display: block;
+}
+
+.dog-article {
+  height: 400px;
+  width: 30.333%;
+  display:inline-block;
+  text-align: center;
+  margin:10px;
+}
+
+.article-pic {
+  height: 200px;
+  width: 200px;
+  border: solid 2px #3F8DA7;
+  border-radius: 100%;
+}
+
+.article-button {
+  background-color: #FFFFFF;
+  color: #3F8DA7;
+  border: solid 3px #3F8DA7;
+  font: inherit;
+  font-size: 14px;
+  width: 100px;
+}
+
+footer {
+  height: 200px;
+  background-color: #3F8DA7;
+  display:block;
+}
+
+.footer-text {
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.social-media-nav {
+  text-align: center;
+}
+.media-link {
+  padding: 0 20px;
+}
+
+.git-hub-container {
+  text-align: center;
+}
+.github-link {
+color: #FFFFFF;
+
+
+
 }
