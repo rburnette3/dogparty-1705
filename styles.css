@@ -50,15 +50,16 @@ header {
   background-image: url(assets/park.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
   width: 100%;
   height: 500px;
-  align-content: center;
+
 }
 
 h2 {
   font-size: 26px;
   margin: 0;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .top-section-container{
@@ -69,36 +70,39 @@ h2 {
 }
 
 .heading-pic {
-  height: 275px;
-  width: 275px;
+  height: 300px;
+  width: 300px;
   border: solid 4px #3F8DA7;
   border-radius: 100%;
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 .what-are-dogs-button {
   background-color: #FFFFFF;
   color: #3F8DA7;
-  border: solid 3px #3F8DA7;
+  border: solid 4px #3F8DA7;
   font: inherit;
-  font-size: 14px;
-  width: 120px;
-  margin-top: 50px;
-
+  font-size: 18px;
+  width: 150px;
+  margin-top: 15px;
+  padding: 5px;
 }
 
 .article-container {
   height: 500px;
   width: 100%;
-  display: block;
+  text-align: center;
+
 }
 
 .dog-article {
+  /*float: left;*/
   height: 400px;
-  width: 30.333%;
+  width: 30%;
   display:inline-block;
   text-align: center;
   margin:10px;
+  vertical-align: top;
 }
 
 .article-pic {
@@ -125,15 +129,17 @@ footer {
 
 .footer-text {
   color: #FFFFFF;
+  font-size: 18px;
   text-align: center;
   padding-top: 15px;
 }
 
 .social-media-nav {
   text-align: center;
+  margin: 25px 0;
 }
 .media-link {
-  padding: 0 20px;
+  padding: 0 25px;
 }
 
 .git-hub-container {
